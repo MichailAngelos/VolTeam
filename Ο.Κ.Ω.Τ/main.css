@@ -1,0 +1,54 @@
+﻿
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+body{
+	
+	
+	margin:40px auto;
+	padding:20px auto;
+  background-image:url("white-wall.jpg");
+   font: 22px Tahoma;
+   text-align:center;
+  
+}
+
+
+h1{
+	font:50px Tahoma;
+	
+}
+h2{
+	font:30px Tahoma;
+
+	
+}
+
+h4{
+	font-size:20px;
+	
+}
+
+ #site{
+	border: 1px solid black;
+	width:100px ;
+	margin:20px auto;
+	background-image:url("white-wall.jpg");
+}
+
+#footer{
+
+	font:bold 20px Tahoma ;
+         height: 100px;
+padding: auto;
+margin:auto;		 
+}
+
+
+	
+	
+	
