@@ -15,7 +15,9 @@
 <body>
 <div class="container">
 <div class="container text-left" > 
-<img src="ateith-logo.jpg" class="img-circle" height="100px">   <img src="pliroforiki.png" class="img-rounded" height="100px"> <img src="ayto.png" class="img-rounded" height="80px"> 
+<a href="https://moodle.teithe.gr/login/index.php"> <img src="ateith-logo.jpg" class="img-circle" height="100px"> </a> 
+<a href="http://www.it.teithe.gr/?lang=el"> <img src="pliroforiki.png" class="img-rounded" height="100px"></a>
+<a href="http://www.autom.teithe.gr/gr/"><img src="ayto.png" class="img-rounded" height="80px"> </a>
 <h1>Φόρμα Στοιχείων</h1>
  <p>Ομάδα Κοινωνικής Ωφέλειας Τ.Ε.Ι. Θεσσαλονίκης  </p>
 
@@ -26,17 +28,10 @@
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Άρχικη</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Δράση 
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+            <li><a href="omada.html">Ομάδα</a></li> 
             <li><a href="area.html">Υπηρεσίες</a></li>
-            
-            <li><a href="form.html">Φόρμα Στοιχείων</a></li> 
-          </ul>
-        </li>
-        <li><a href="omada.html">Ομάδα</a></li> 
-        <li><a href="contact.html">Γενικές Πληροφορίες</a></li> 
+           <li><a href="contact.html">Γενικές Πληροφορίες</a></li> 
+		  <li><a href="form.html">Χρειάζομαι Βοήθεια</a></li> 
       </ul>
     </div>
   </div>
@@ -45,13 +40,13 @@
 <div class="container-fluid">
   <form action="#">
 
-    <label for="fname">Όνομα</label>
+    <label for="fname" class="required">Όνομα</label>
     <input type="text" id="fname" name="firstname" required placeholder="Το όνομα σας..." >
 
-    <label for="lname">Επίθετο</label>
+    <label for="lname" class="required">Επίθετο</label>
     <input type="text" id="lname" name="lastname" required placeholder="Το επίθετο σας...">
 
-	<label for="til">Τηλέφωνο επικοινωνίας</label>
+	<label for="til" class="required">Τηλέφωνο επικοινωνίας</label>
 	<input type="text" id="til" name="til" required placeholder="Κινητό / Σταθερό...">
 	
 	<label for="mail">E-mail</label>

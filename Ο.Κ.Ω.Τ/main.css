@@ -141,4 +141,7 @@ input[type=submit]:hover {
     background-color:#697a6a;
 }
 
+ .required::after{content: "*";
+    color:red;
 
+ }
