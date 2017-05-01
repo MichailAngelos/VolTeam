@@ -30,7 +30,7 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Δράση 
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="area.html">Περιοχές</a></li>
+            <li><a href="area.html">Υπηρεσίες</a></li>
             
             <li><a href="form.html">Φόρμα Στοιχείων</a></li> 
           </ul>
@@ -41,6 +41,44 @@
     </div>
   </div>
 </nav>
+
+<div class="container-fluid">
+  <form action="#">
+
+    <label for="fname">Όνομα</label>
+    <input type="text" id="fname" name="firstname" required placeholder="Το όνομα σας..." >
+
+    <label for="lname">Επίθετο</label>
+    <input type="text" id="lname" name="lastname" required placeholder="Το επίθετο σας...">
+
+	<label for="til">Τηλέφωνο επικοινωνίας</label>
+	<input type="text" id="til" name="til" required placeholder="Κινητό / Σταθερό...">
+	
+	<label for="mail">E-mail</label>
+	<input type="text" id="mail" name="mail"	placeholder="e-mail(όχι υποχρεωτικό)...">
+	
+    <label for="perioxes">Περιοχές </label>
+    <select id="perioxes" name="perioxes">
+      <option value="kentro">Κέντρο</option>
+      <option value="kastra">Κάστρα</option>
+      <option value="triandria">Τριανδρία</option>
+	  <option value="toumpa">Τούμπα</option>
+	  <option value="xarilaou">Χαριλάου</option>
+	  <option value="ilioupoli">Ηλιούπολη</option>
+	  <option value="menemeni">Μενεμένη</option>
+	  <option value="kordelio">Κορδελιό</option>
+	  <option value="ksirokrini">Ξηροκρίνη</option>
+	  <option value="ampelokipoi">Αμπελόκηποι</option>
+	  <option value="euosmo">Εύοσμος</option>
+    </select>
+
+    <label for="subject">Το πρόβλημα σας</label>
+    <textarea id="subject" name="subject" placeholder="Γράψτε τι πρόβλημα αντιμετωπίζεται..." style="height:200px"></textarea>
+
+    <input type="submit" value="Αποστολή">
+
+  </form>
+</div>
 
 <br><br>
 <footer class="container-fluid ">

@@ -46,7 +46,7 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Δράση 
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="area.html">Περιοχές</a></li>
+            <li><a href="area.html">Υπηρεσίες</a></li>
          
             <li><a href="form.html">Φόρμα Στοιχείων</a></li> 
           </ul>
@@ -63,7 +63,7 @@
             <h2 id="h2">Καλωσορίσατε στην ιστοσελίδα της εθελοντικής ομάδας του Τ.Ε.Ι. Θεσσσαλονίκης </h2> 
   <br>
   
-        <p>Σ' αυτή την ιστοσελίδα μπορείται να ενημερώθειται για τις υπηρεσίες της ομάδας καθώς και για την δράση μας. </p>
+        <p>Σ' αυτή την ιστοσελίδα μπορείται να ενημερώθειται για τις υπηρεσίες της ομάδας καθώς και να μας πείτε  τι πρόβλημα αντιμετωπίζεται. </p>
          </div>
 
   <br><br>
@@ -99,17 +99,19 @@
            <form>
              <fieldset>
               <span>
-                <input type="radio" name="rating" value="5" /><label for="rating-5">Very Bad</label>
-                <input type="radio"  name="rating" value="4" checked="checked" /><label for="rating-4">Bad</label>
-                <input type="radio"  name="rating" value="3" /><label for="rating-3">Good</label>
-                <input type="radio"  name="rating" value="2" /><label for="rating-2">Very Good</label>
-                <input type="radio"  name="rating" value="1" /><label for="rating-1">Excellent</label>
+                <input type="radio" name="rating" value="5" /><label for="rating-5">Πολύ Κακό</label>
+                <input type="radio"  name="rating" value="4" checked="checked" /><label for="rating-4">Κακό</label>
+                <input type="radio"  name="rating" value="3" /><label for="rating-3">Καλό</label>
+                <input type="radio"  name="rating" value="2" /><label for="rating-2">Πολύ Καλό</label>
+                <input type="radio"  name="rating" value="1" /><label for="rating-1">Εξαιρετικό</label>
  
               </span>
 	 
             </fieldset>
  <br>
-         <button type="submit"> Submit </button>
+   <form action="#">
+ <input type="submit" value="Rate">  
+   
                       </form>
 <br><br>
 
@@ -143,7 +145,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex> slides.length) {slideIndex = 1} 
     slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 2500); // Change image every 2 seconds
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
 
