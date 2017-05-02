@@ -11,6 +11,14 @@
 <title> Ο.Κ.Ω.Τ.</title>
 <link rel="icon" type="image/jpg" href="ateith-logo.jpg">
 
+<script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
 </head>
 <body>
 <div class="container">

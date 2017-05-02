@@ -8,7 +8,7 @@
 
  body{
 	
-	
+	background-color:#d3d1d1;
 	margin:40px auto;
 	padding:20px auto;
   
@@ -56,6 +56,8 @@ body {font-family: Verdana,sans-serif;}
 }
 
 
+
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -91,6 +93,7 @@ body {font-family: Verdana,sans-serif;}
 }
 
 /* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -145,3 +148,6 @@ input[type=submit]:hover {
     color:red;
 
  }
+
+ 
+ 
