@@ -1,2 +1,2 @@
 # VolTeam
-This is a project for a volunteer team of my University who wants to fix computers for the citizens of Thessaloniki,Greece for free. 
+This is a simple web site that was created for the purpose of helping citizens of Thessasoliki for free with services such as repairing,fixing,set up ,update etc their Desktop/Laptop. (Volunteer team of my University)
